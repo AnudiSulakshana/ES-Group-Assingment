@@ -27,6 +27,7 @@ namespace Driver_Hiring_System
         {
             Form4 f2 = new Form4();
             f2.Show();
+            this.Hide();
 
             SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Employee update\";Integrated Security=True");
             conn.Open();

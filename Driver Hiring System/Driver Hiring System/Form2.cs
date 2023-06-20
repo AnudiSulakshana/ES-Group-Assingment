@@ -22,6 +22,7 @@ namespace Driver_Hiring_System
         {
             Form3 f2 = new Form3();
             f2.Show();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,6 +30,9 @@ namespace Driver_Hiring_System
 
             Form6 f2 = new Form6();
             f2.Show();
+            this.Hide();
+            this.Update();
+            
 
             SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Integrated Security=True");
             conn.Open();

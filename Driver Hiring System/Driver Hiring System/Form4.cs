@@ -23,6 +23,7 @@ namespace Driver_Hiring_System
         {
             Form5 f2 = new Form5();
             f2.Show();
+            this.Hide();
 
             SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Integrated Security=True");
             conn.Open();

@@ -22,6 +22,7 @@ namespace Driver_Hiring_System
         {
             Form12 f2 = new Form12();
             f2.Show();
+            this.Hide();
 
             SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Leave Handling\";Integrated Security=True");
             conn.Open();

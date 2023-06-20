@@ -21,6 +21,12 @@ namespace Driver_Hiring_System
         {
             Form2 f2 = new Form2();
             f2.Show();
+            this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
