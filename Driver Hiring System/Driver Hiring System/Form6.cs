@@ -29,7 +29,7 @@ namespace Driver_Hiring_System
             f2.Show();
             this.Hide();
 
-            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Employee update\";Integrated Security=True");
+            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Driver Hiring system\";Integrated Security=True");
             conn.Open();
             SqlCommand cmd = new SqlCommand("insert into testfirst(Name) values('" + textBox1.Text + "') (Address) values ('"+textBox2.Text+"') (Age) values ('"+textBox3.Text+"') (Telephone no) values('"+textBox4.Text+"') (Grade) values('"+textBox5.Text+"')");
 

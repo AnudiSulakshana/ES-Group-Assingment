@@ -29,12 +29,13 @@ namespace Driver_Hiring_System
         {
 
             Form6 f2 = new Form6();
-            f2.Show();
-            this.Hide();
-            this.Update();
+            
+                f2.Show();
+                this.Hide();
+             
             
 
-            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Integrated Security=True");
+            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Driver Hiring system\";Integrated Security=True");
             conn.Open();
             SqlCommand cmd = new SqlCommand("insert into testfirst(FName) values('" + textBox1.Text + "') (Id) values ('"+textBox2.Text+"') (age) values('"+textBox3.Text+"') (T no) values('"+textBox4.Text+"') (Address) values('"+textBox5.Text+"') (W experience) values('"+textBox6.Text+"') (Ltype) values('"+textBox7.Text+"') (E qualification) values('"+textBox8.Text+"')");
 

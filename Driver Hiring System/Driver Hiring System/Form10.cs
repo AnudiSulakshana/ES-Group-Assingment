@@ -24,7 +24,7 @@ namespace Driver_Hiring_System
             f2.Show();
             this.Hide();
 
-            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Leave Request\";Integrated Security=True");
+            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Driver Hiring system\";Integrated Security=True");
             conn.Open();
             SqlCommand cmd = new SqlCommand("insert into testfirst(From) values('"+textBox1.Text+"') (To) values('"+textBox2.Text+"') (Peer) values('"+textBox3.Text+"') (Reason) values('"+textBox4.Text+"')");
 

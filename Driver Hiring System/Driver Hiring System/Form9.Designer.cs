@@ -233,6 +233,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
             this.Name = "Form9";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form9";
             this.Load += new System.EventHandler(this.Form9_Load);
             this.ResumeLayout(false);

@@ -21,5 +21,10 @@ namespace Driver_Hiring_System
         {
 
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

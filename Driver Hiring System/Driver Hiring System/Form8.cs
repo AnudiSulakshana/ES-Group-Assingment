@@ -24,7 +24,7 @@ namespace Driver_Hiring_System
             f2.Show();
             this.Hide();
 
-            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Overtime Request Form\";Integrated Security=True");
+            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Driver Hiring system\";Integrated Security=True");
             conn.Open();
             SqlCommand cmd = new SqlCommand("insert into testfirst(Date) values ('"+textBox1.Text+"') (Name) values ('"+textBox2.Text+"') (Id) values ('"+textBox3.Text+"') (Email) values ('"+textBox4.Text+"') (Manager's name) values ('"+textBox5.Text+"') (date of OT) values ('"+textBox6.Text+"') (Requested OT hours) values ('"+textBox7.Text+"') (description) values ('"+textBox8.Text+"') ");
             cmd.Connection = conn;

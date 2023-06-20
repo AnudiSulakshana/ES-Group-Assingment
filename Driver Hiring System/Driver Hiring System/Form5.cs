@@ -27,7 +27,7 @@ namespace Driver_Hiring_System
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Vehicle Details\";Integrated Security=True");
+            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-E2QCO8FG\\SQLEXPRESS;Initial Catalog=\"Driver Hiring system\";Integrated Security=True");
             conn.Open();
             SqlCommand cmd = new SqlCommand("insert into testfirst(V Number) values ('" + textBox1.Text + "') (Dn Id) values ('"+textBox2.Text+"') (Yard in hour) values('"+textBox3.Text+"') (Yard leave hour) values('"+textBox4.Text+"')");
 
